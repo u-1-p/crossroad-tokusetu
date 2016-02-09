@@ -1,0 +1,14 @@
+@media screen and (max-width: 726px) {
+  .header {
+    background: url("https://googledrive.com/host/0B7V-92KAO-tldURQR2dUNVlyaWM") no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+}
+@media screen and (min-width: 727px) {
+  .header {
+    background: url("https://googledrive.com/host/0B7V-92KAO-tldGhkai00X21TQWc") no-repeat fixed;
+    background-size: cover;
+    height: 100vh;
+  }
+}

@@ -1,0 +1,20 @@
+.sample_images {
+  text-align: center;
+}
+@media screen and (max-width: 726px) {
+  .sample_images {
+    margin-top: 3em;
+  }
+  .sample_images img {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 727px) {
+  .sample_images img {
+    margin-top: 4%;
+    width: 65%;
+    box-shadow: rgba(108,113,115,0.651) 5px 6px 19px 3px;
+    -webkit-box-shadow: rgba(108,113,115,0.651) 5px 6px 19px 3px;
+    -moz-box-shadow: rgba(108,113,115,0.651) 5px 6px 19px 3px;
+  }
+}

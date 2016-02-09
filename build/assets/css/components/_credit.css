@@ -1,0 +1,77 @@
+.credit {
+  text-align: center;
+  margin: 0 auto;
+}
+.credit h1 {
+  padding-top: 1.8em;
+  display: inline-block;
+  text-align: left;
+  font-size: 1.2em;
+  color: $black;
+  padding-bottom: 0.8em;
+}
+.credit ul {
+  font-size: 0.9em;
+  line-height: 3.3;
+}
+@media screen and (min-width: 727px) {
+  .credit ul {
+    margin-left: 100px;
+  }
+}
+.name {
+  text-align: left;
+  display: inline-block;
+  color: $gray;
+}
+@media screen and (max-width: 726px) {
+  .name {
+    font-size: 0.8em;
+    width: 20%;
+  }
+}
+@media screen and (min-width: 727px) {
+  .name {
+    width: 200px;
+  }
+}
+.url {
+  text-align: left;
+  display: inline-block;
+}
+@media screen and (max-width: 726px) {
+  .url {
+    font-size: 0.8em;
+    width: 30%;
+  }
+}
+@media screen and (min-width: 727px) {
+  .url {
+    width: 200px;
+  }
+}
+.url a {
+  text-decoration: none;
+  color: $link-text;
+}
+.url a:hover {
+  color: $link-select;
+}
+.role {
+  text-align: left;
+  display: inline-block;
+  color: $gray;
+}
+@media screen and (max-width: 726px) {
+  .role {
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    width: 30%;
+  }
+}
+@media screen and (min-width: 727px) {
+  .role {
+    width: 200px;
+    letter-spacing: 3px;
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "crossroad",
+  "homepage": "https://github.com/u-1-p/",
+  "authors": [
+    "Yuu"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  },
+  "overrides": {
+    "jquery": {
+      "main": "dist/jquery.min.js"
+    }
+  }
+}

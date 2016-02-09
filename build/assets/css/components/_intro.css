@@ -1,0 +1,24 @@
+.intro {
+  padding-top: 4%;
+  text-align: center;
+  margin: 0 auto;
+}
+.intro img {
+  width: 100%;
+  padding-bottom: 2em;
+}
+.intro p {
+  text-align: left;
+  line-height: 2.2;
+  letter-spacing: 3px;
+}
+@media screen and (max-width: 726px) {
+  .intro {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 727px) {
+  .intro {
+    width: 60%;
+  }
+}

@@ -1,0 +1,63 @@
+body {
+  font-family: $fontfamily;
+  color: $text-color;
+  transition-duration: 0.9s;
+  transition-property: opacity;
+}
+.section_text h1 {
+  text-align: center;
+  font-size: 1.5em;
+  color: $text-color;
+  letter-spacing: 2px;
+  font-weight: bold;
+  padding-top: 2em;
+}
+@media screen and (max-width: 726px) {
+  .intro_section {
+    padding-bottom: 20%;
+  }
+}
+@media screen and (min-width: 727px) {
+  .intro_section {
+    padding-bottom: 7%;
+  }
+}
+.info_section {
+  background: rgba(230,230,230,0.42);
+}
+@media screen and (max-width: 726px) {
+  .info_section {
+    padding-bottom: 20%;
+  }
+}
+@media screen and (min-width: 727px) {
+  .info_section {
+    padding-bottom: 7%;
+  }
+}
+@media screen and (max-width: 726px) {
+  .sample_section {
+    padding-bottom: 20%;
+  }
+}
+@media screen and (min-width: 727px) {
+  .sample_section {
+    padding-bottom: 7%;
+  }
+}
+.organaizers_section {
+  background-color: #fff5df;
+}
+@media screen and (max-width: 726px) {
+  .organaizers_section {
+    padding-bottom: 20%;
+  }
+}
+@media screen and (min-width: 727px) {
+  .organaizers_section {
+    padding-bottom: 7%;
+  }
+}
+.credit_section {
+  padding-bottom: 3%;
+}

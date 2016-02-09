@@ -1,0 +1,87 @@
+.info {
+  padding-top: 4%;
+  display: table;
+  text-align: center;
+  margin: 0 auto;
+}
+@media screen and (max-width: 726px) {
+  .info {
+    width: 90%;
+  }
+  .schedule {
+    text-align: left;
+    padding-bottom: 2em;
+  }
+  .schedule h2 {
+    font-size: 1.2em;
+    letter-spacing: 1.5px;
+    line-height: 2.5;
+    margin-bottom: -0.7em;
+  }
+  .schedule h3 {
+    font-size: 1.4em;
+    font-weight: bold;
+    letter-spacing: 1.4px;
+  }
+  .schedule p {
+    font-size: 1.1em;
+    line-height: 1.2;
+    letter-spacing: 1px;
+  }
+  .schedule span {
+    font-size: 0.8em;
+    letter-spacing: 2px;
+  }
+  .map {
+    text-align: center;
+    margin: 0 auto;
+    color: $gray;
+    border: 1px solid $sky_blue;
+    width: 100%;
+  }
+  .map h1 {
+    padding-top: 0.6em;
+    font-size: 1em;
+    padding-bottom: 0.6em;
+  }
+  .map iframe {
+    display: none;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 727px) {
+  .schedule {
+    padding-left: 10%;
+    width: 40%;
+    text-align: left;
+    display: table-cell;
+    line-height: 1.3;
+  }
+  .schedule h2 {
+    font-size: 1.4em;
+    letter-spacing: 2px;
+    line-height: 2.5;
+    margin-bottom: -0.7em;
+  }
+  .schedule h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 1.2;
+    letter-spacing: 1.4px;
+  }
+  .schedule p {
+    font-size: 1.5em;
+    letter-spacing: 2.4px;
+  }
+  .schedule span {
+    font-size: 1em;
+    letter-spacing: 2px;
+  }
+  .map {
+    width: 40%;
+    display: table-cell;
+  }
+  .map h1 {
+    font-size: 0;
+  }
+}

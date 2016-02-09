@@ -1,0 +1,136 @@
+.organizers {
+  padding-top: 4%;
+  text-align: center;
+  margin: 0 auto;
+  display: table;
+}
+.organizers h1 {
+  display: inline-block;
+}
+@media screen and (max-width: 726px) {
+  .member {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 727px) {
+  .member {
+    width: 43%;
+    display: table-cell;
+  }
+}
+.icon {
+  text-align: center;
+  padding-top: 2.3em;
+}
+@media screen and (max-width: 726px) {
+  .icon img {
+    width: 75%;
+  }
+}
+@media screen and (min-width: 727px) {
+  .icon img {
+    width: 35%;
+  }
+}
+.prof_name {
+  font-size: 1.4em;
+  letter-spacing: 1.8px;
+  margin-top: 0.8em;
+}
+.twi_id a {
+  font-size: 1.2em;
+  text-decoration: none;
+  color: $text-color;
+  letter-spacing: 2px;
+}
+.twi_id a:hover {
+  color: $link-select;
+}
+.website {
+  padding: 0.2em 0 0.2em 0;
+}
+.website a {
+  font-size: 1em;
+  text-decoration: none;
+  color: $sky_blue;
+  letter-spacing: 0.8px;
+}
+.website a:hover {
+  color: $link-select;
+}
+.sumally {
+  text-align: left;
+  display: inline-block;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  line-height: 2;
+  padding-bottom: 2%;
+}
+@media screen and (max-width: 726px) {
+  .sumally {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 727px) {
+  .sumally {
+    width: 45%;
+    max-width: 700px;
+  }
+}
+.unun_member {
+  margin: 0 auto;
+  color: $gray;
+  border: 1px solid $sky_blue;
+}
+@media screen and (max-width: 726px) {
+  .unun_member {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 727px) {
+  .unun_member {
+    width: 45%;
+    max-width: 700px;
+  }
+}
+.unun_member h2 {
+  padding-top: 0.6em;
+  font-size: 1.3em;
+  padding-bottom: 0.6em;
+}
+.unun_member h2:hover {
+  color: $link-select;
+}
+.unun_member .icon_s {
+  padding-bottom: 0.3em;
+}
+@media screen and (max-width: 726px) {
+  .unun_member .icon_s img {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 727px) {
+  .unun_member .icon_s img {
+    width: 35%;
+  }
+}
+.unun_member .prof_name_s {
+  font-size: 1.2em;
+  padding-bottom: 0.1em;
+}
+.unun_member .twi_id_s {
+  padding-bottom: 1em;
+  font-size: 0.8em;
+}
+.unun_member .twi_id_s a {
+  color: $gray;
+  text-decoration: none;
+}
+.unun_member .twi_id_s a:hover {
+  color: $link-select;
+}
+.unun_member .icon_s,
+.unun_member .prof_name_s,
+.unun_member .twi_id_s {
+  display: none;
+}
